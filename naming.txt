@@ -1,0 +1,1 @@
+speaker_id(int) - speaker_gender(m or f) - speaker_age(int) - spoken_word(int from 0 to 6) - spoken_emotion(int from 0 to 2) - record_id(int)
