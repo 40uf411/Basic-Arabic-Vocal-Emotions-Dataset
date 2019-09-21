@@ -20,9 +20,9 @@ This dataset contains 7 arabic words identified and named as the following:
 Each of the previous words is recorded in three levels of expressed emotions. Level 0 is when the speaker is expressing a low emotion, this is similar to feeling tired or feeling down. Level 1 is the standered level, it's the way the speaker speaks daily where he/she is expressing a neutral emotion, finally the level 2, is when the speaker is expressing a high level of positive or negative emotions (happiness, joy, sadness, anger, etc...).
 
 * **Number of records:** 1935
-* **NUmber of speakers:** 61
-* **NUmber of male speakers:** 45
-* **NUmber of female speakers:** 16
+* **Number of speakers:** 61
+* **Number of male speakers:** 45
+* **Number of female speakers:** 16
 * **Data-set size:** 97.8 MB
 
 ## Files meta-data
