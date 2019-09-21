@@ -1,7 +1,7 @@
 # Basic Arabic Vocal Emotions Dataset 
-Basic Arabic Vocal Emotions Dataset (BAVED) is a datasetthat contains an arabic words spelled in diffrent levels of emotions recorded in an audio/wav format.
+Basic Arabic Vocal Emotions Dataset (BAVED) is a dataset that contains an arabic words spelled in diffrent levels of expressed emotions recorded in an audio/wav format.
 ## About the dataset
-This data set contains a 7 arabic words identified and named as the following:
+This dataset contains 7 arabic words identified and named as the following:
 
  0- اعجبني
  
@@ -17,7 +17,7 @@ This data set contains a 7 arabic words identified and named as the following:
  
  6- سيئ
 
-Each of the previous words is recorded in three levels of emotions. Level 0 is when the speaker is expressing a low level of emotion, this is similar to feeling tired or feeling down. Level 1 is the the standered level, it is the way the speaker speaks daily where he/she is expressing a neutral emotions,finally the level 2 emotion, its when the speaker is expressing a high level of positive or negative emotions (happiness, joy, sadness, anger, etc...).
+Each of the previous words is recorded in three levels of expressed emotions. Level 0 is when the speaker is expressing a low emotion, this is similar to feeling tired or feeling down. Level 1 is the standered level, it's the way the speaker speaks daily where he/she is expressing a neutral emotion, finally the level 2, is when the speaker is expressing a high level of positive or negative emotions (happiness, joy, sadness, anger, etc...).
 
 * **Number of records:** 1935
 * **NUmber of speakers:** 61
@@ -26,7 +26,7 @@ Each of the previous words is recorded in three levels of emotions. Level 0 is w
 * **Data-set size:** 97.8 MB
 
 ## Files meta-data
-**Note:** the samples were recorded in diffrent stats, then they were normalized and formated into the following parameters:
+**Note:** the samples were recorded in different stats, then they were normalized and formated into the following characteristics:
 
 - **type:** audio/wav (original: video/mp4 or audio/wav)
 - **Sample rate:** 16 kHz (original: 48 kHz or higher frequencies)
@@ -40,6 +40,6 @@ speaker_id(int) - speaker_gender(m or f) - speaker_age(int) - spoken_word(int be
 
 
 ## Usage instructions
-This dataset is mainly for a basic arabic speech recognition, and arabic vocal emotions detection,it shall give good results if trainned and tested for one of the previous purposes. Keep in mind that this dataset in its first version is limited to 7 wordes and three levels of emotions, so a commercial use won't probably be a good idea.
+This dataset is mainly for a basic arabic speech recognition, and arabic vocal emotions detection, it shall give good results if trainned and tested for one of the previous purposes. Keep in mind that this dataset in its first version is limited to 7 wordes and three levels of emotions, so a commercial use won't probably be a good idea.
 
-Even though this data-set includes the information about the age and gender of each speaker it is not very recommanded to build a model upon that, since the number of male speakers is almost 3 times more than the number of female speakers,and since the ages of the speakers are between 18 and 23 with some exceptions.
+Even though this data-set includes the information about the age and gender of each speaker it is not recommanded to build a model upon it for these purposes, since the number of male speakers is almost 3 times more than the number of female speakers,and since the ages of the speakers are between 18 and 23 with some exceptions.
